@@ -14,6 +14,7 @@ def assign_rooms(names)
   room = 1
   while room <= amt
     arr << "Hello, #{names[room - 1]}! You'll be assigned to room #{room}!"
+    room += 1
   end
   arr
 end
